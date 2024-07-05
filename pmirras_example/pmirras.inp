@@ -1,0 +1,54 @@
+
+### Options controlling verbosity of output
+#iverbose = 1						# verbosity of output
+
+### Options controlling type of SFG
+sfgtype = pmirras  	 				# SFG type (sfg, drsfg, pmirras) 
+sfgpol = ssp						# SFG polarization
+
+### Options controlling molecular orientation
+theta = 0 							# tilt angle [degree]  (number/scan) 
+psi   = 0							# twist angle [degree] (number/scan/avg) 
+#phi   = avg  						# azimuthal angle [degree] (number/scan/avg) 
+
+### Options controlling Euler angles
+#rotconv  	= zyz  					# rotation convention for Euler matrix (zxz or zyz)
+#thetamin 	= 0.0  					# minimun value of angle to scan/avg 
+#thetamax 	= 360.  				# maximun value of angle to scan/avg 
+#thetastep 	= 5.0  					# step value of angle to scan/avg 
+#psimin  	= 0.0   				# minimun value of angle to scan/avg 
+#psimax  	= 360.  				# maximun value of angle to scan/avg 
+#psistep 	= 5.0  					# step value of angle to scan/avg 
+#phimin  	= 0.0   				# minimun value of angle to scan/avg 
+#phimax  	= 360. 					# maximun value of angle to scan/avg 
+#phistep 	= 5.0  					# step value of angle to scan/avg 
+
+### Options controlling input/output files
+freqfile    = pyNHC_tBu_Au_adatom_21cluster_0_1_WCO5.log        # frequency file
+dipfile     = pyNHC_tBu_Au_adatom_21cluster_0_1_WCO5.log        # dipole file
+polarfile   = pyNHC_tBu_Au_adatom_21cluster_0_1_WCO5.log        # polar file
+outfile 	= wco5                             					# output file
+#expfile 	= Auslide-Py2Au-bigslide-overnight-DCMrinse-Heatgun-sonicated.0.dpt				# experimental file 
+
+### Options controlling spectral output
+scalef 		= 0.949 				# frequency scaling factor
+freqmin 	= 700 	 				# minimum freq. [cm-1] 
+freqmax 	= 2500  				# maximum freq. [cm-1]
+freqstep 	= 0.1  					# freq. step [cm-1]
+width 		= 18.0 					# spectral width [cm-1]	
+
+### Options controlling non-resonant background
+nr_phase	= 0.0						# non-resonant phase [degree]
+nr_ampl 	= 0.0						# non-resonant amplitude [arb. u.]
+
+### Options controlling Fresnel factors (3-layer model)
+visangle = 45						# visible light angle [degree]
+irangle  = 56 						# ir light angle [degree]
+visfreq  = 18800 					# vis light freq. [cm-1]
+irfreq   = 2900 					# ir light freq. [cm-1]
+
+n1 = 1.00028  						# refractive index of incident medium
+n2 = 1.41 							# refractive index of transmitted medium
+n3 = 1.465							# refractive index of interface 
+
+

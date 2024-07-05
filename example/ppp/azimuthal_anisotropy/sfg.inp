@@ -1,0 +1,39 @@
+### Options controlling type of SFG
+sfgpol = ppp						# SFG polarization
+
+### Options controlling molecular orientation
+theta = 30 							# tilt angle [degree]  (number/scan) 
+psi   = 0 							# twist angle [degree] (number/scan/avg) 
+phi   = scan  						# azimuthal angle [degree] (number/scan/avg) 
+
+### Options controlling Euler angles
+phistep 	= 1.0  					# step value of angle to scan/avg 
+
+### Options controlling input/output files
+freqfile 	= ../../Rebpy_freq.log					# frequency file
+dipfile 	= ../../Rebpy_freq.log					# dipole file
+polarfile 	= ../../Rebpy_freq.log					# polar file
+outfile 	= Rebpy										# output file
+
+### Options controlling spectral output
+scalef 		= 1.0					# frequency scaling factor
+freqmin 	= 1800 	 				# minimum freq. [cm-1] 
+freqmax 	= 2200  				# maximum freq. [cm-1]
+freqstep 	= 0.1  					# freq. step [cm-1]
+width 		= 5.0  					# spectral width [cm-1]	
+
+### Options controlling non-resonant background
+nr_phase	= 0.0						# non-resonant phase [degree]
+nr_ampl 	= 0.0						# non-resonant amplitude [arb. u.]
+
+### Options controlling Fresnel factors (3-layer model)
+visangle = 45						# visible light angle [degree]
+irangle  = 56 						# ir light angle [degree]
+visfreq  = 18800 					# vis light freq. [cm-1]
+irfreq   = 2900 					# ir light freq. [cm-1]
+
+n1 = 1.00							# refractive index of incident medium
+n2 = 2.52							# refractive index of transmitted medium
+n3 = 1.20							# refractive index of interface 
+
+
